@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Village Studio Inferni Scheme 01",
+  "description": "Data for Inferni Client",
+  "type": "object",
+  "properties": {
+    "doc_version" : { "description": "Inferni Client Setting Update JSON version",
+                      "type": "string"},
+    "playtest_windows" : {  "type": "array",
+                            "items": { "description": "List of Inferni Clients Playtest Windows",
+                                       "type": "object",
+                                       "properties": {
+                                          "client_version": { "description": "Valid Inferni Client version",
+                                                              "type": "string"
+                                          },
+                                          "playtest_windows": { "type": "array",
+                                                                "items": { "description": "List of Inferni Client Playtest Windows",
+                                                                           "type": "object",
+                                                                           "properties": {
+                                                                              "time_Start": { "description": "Playtest Start Time in ISO 8601",
+                                                                              "type": "string"
+                                                                              },
+                                                                              "time_End": { "description": "Playtest Start Time in ISO 8601",
+                                                                              "type": "string"
+                                                                              }
+                                                                           },
+                                                                           "required": ["time_Start", "time_End"],
+                                                                           "additionalProperties": false
+                                                                }
+                                                              },
+                                          "disable_playtest_windows_checking" : { 
+                                              "description" : "Make the online game always available",
+                                              "type" : "boolean"
+                                            }
+                                       },
+                                       "required": ["client_version", "playtest_windows", "disable_playtest_windows_checking"],
+                                       "additionalProperties": false
+                            },
+
+    }
+  },
+  "required": ["doc_version","playtest_windows"],
+  "additionalProperties": false
+}

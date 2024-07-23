@@ -1,0 +1,25 @@
+{
+    "doc_version": "playtest.1",
+    "playtest_windows": [
+        {
+            "client_version": "0.7.6.4",
+            "playtest_windows": [
+                {
+                    "time_Start": "2024-06-10 10:30:00.000",
+                    "time_End": "2024-06-30 23:30:00.000"
+                }
+            ],
+            "disable_playtest_windows_checking": true
+        },
+        {
+            "client_version": "0.7.6.8",
+            "playtest_windows": [
+                {
+                    "time_Start": "2024-06-10 10:30:00.000",
+                    "time_End": "2024-06-30 23:30:00.000"
+                }
+            ],
+            "disable_playtest_windows_checking": true
+        }
+    ]
+}
