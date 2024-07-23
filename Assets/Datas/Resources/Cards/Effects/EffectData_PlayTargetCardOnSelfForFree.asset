@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e8e9ca0935481c8cda8435fd4e2094, type: 3}
+  m_Name: EffectData_PlayTargetCardOnSelfForFree
+  m_EditorClassIdentifier: 
+  InternalID: b123e7aa9793b4d2885e74551112501d
+  target: 1
+  CardEffectCategories: 00020000
+  effectDescription: Cast target Spell that targets alive players on self without
+    paying the energy cost

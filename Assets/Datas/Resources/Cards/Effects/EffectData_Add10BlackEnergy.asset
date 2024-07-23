@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a739de93fc2f4d14b20691cce047e33, type: 3}
+  m_Name: EffectData_Add10BlackEnergy
+  m_EditorClassIdentifier: 
+  InternalID: 2e68a6b51fe1a4f17b1989be1dc0ce8f
+  target: 1
+  effectType: 3
+  secondaryEffectType: 0
+  effectDescription: Target player gains {X} Black energy
+  energyAmount: 10
+  maxEnergy: 0
+  useColor: 1
+  energyColor: 4
+  maxEnergyTextDescription: 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505599118e314799837537eb80177f3c, type: 3}
+  m_Name: CharmData_WeightedGloves
+  m_EditorClassIdentifier: 
+  InternalID: cedf5084f590b4e658b2c766ad23f856
+  charmName: Weighted Glove
+  charmIcon: {fileID: 21300000, guid: 1a589f14150514f9ca591d6eb31cfb92, type: 3}
+  description: Projectile speed reduced by 25%.
+  score: 2
+  ProjectileSpeedMultiplier: 0.75

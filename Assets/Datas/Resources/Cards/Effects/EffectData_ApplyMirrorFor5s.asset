@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1ca1c0970a4b81bfbb330946a3de93, type: 3}
+  m_Name: EffectData_ApplyMirrorFor5s
+  m_EditorClassIdentifier: 
+  InternalID: ec1923b442c884d7f92557fa79c7a0d4
+  target: 1
+  CardEffectCategories: 2000000000010000
+  effectDescription: Apply {X} to target player for {Y} seconds
+  duration: 5
+  useProjectileLifetimeMultiplier: 0
+  modifierData: {fileID: 11400000, guid: 97c49b1f519814d27b44a8b7ecd7abc5, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecdade2bce1e4f698979a7f79bba3c5, type: 3}
+  m_Name: CharmData_FireGauntlets
+  m_EditorClassIdentifier: 
+  InternalID: 7a6bfb6fc1f1649ff8a61a5d18962b33
+  charmName: Fire Gauntlets
+  charmIcon: {fileID: 21300000, guid: b56fbf1c151e846fcbe0d8c986ddc583, type: 3}
+  description: 'Whenever you cast a a projectile that deals damage add "On impact:
+    Deal 2 damage".'
+  score: 15
+  cardEffectData: {fileID: 11400000, guid: 8e89aa2f2043c4939b4cdf5337eaec51, type: 2}
+  requestedEffectType: 1

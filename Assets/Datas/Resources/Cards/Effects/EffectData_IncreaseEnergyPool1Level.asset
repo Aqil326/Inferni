@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26df7c9d370564daf9b343b062352328, type: 3}
+  m_Name: EffectData_IncreaseEnergyPool1Level
+  m_EditorClassIdentifier: 
+  InternalID: c3cbf47f8e7834516806bfca502a12c9
+  target: 1
+  effectType: 3
+  secondaryEffectType: 0
+  effectDescription: Mana upgrade adds two levels rather than one
+  numberOfLevels: 1

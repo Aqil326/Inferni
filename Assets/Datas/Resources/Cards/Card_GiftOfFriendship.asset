@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2328c5569eb43feade0687bb6d6225, type: 3}
+  m_Name: Card_GiftOfFriendship
+  m_EditorClassIdentifier: 
+  InternalID: d32dce90b6acd40eda98c804a7a7a936
+  Name: Gift of Friendship
+  MaxAllowableHPForCast: 0
+  IsBlocked: 0
+  EnergyCost: []
+  CardColor: 5
+  CardType: 0
+  CardSubtypes: 
+  CastingTime: 0
+  ProjectileSpeedMultiplier: 1
+  EnergyCastMultiplier: 1
+  Target: 12
+  CardSprite: {fileID: 21300000, guid: c8a3ea37c70ce4c5ea85cb5d9ce7b542, type: 3}
+  CardText: 
+  EndCastSound:
+    audioClips: []
+    volume: 1
+  ProjectileHitSound:
+    audioClips: []
+    volume: 1
+  ProjectileTravelSound:
+    audioClips: []
+    volume: 1
+  ProjectileType: 2
+  InstantEffectDatas: []
+  OnCastEffectDatas:
+  - {fileID: 11400000, guid: 1ac4722f282f74fd3989d71798c7cc7b, type: 2}
+  ProjectileEffectDatas: []
+  EnergyPoolSacrificeEffectDatas: []
+  BaseScore: 0
+  CardCategories: 00020000

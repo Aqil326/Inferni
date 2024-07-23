@@ -1,0 +1,701 @@
+2022-5-6
+Rendering UV GBuffer for Demo_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Demo_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Demo_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_Demo_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_Demo_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_Demo_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_ao" 8 16 2
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM00.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA10.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA20.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM01.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA11.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA21.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM02.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA12.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA22.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM03.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA13.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA23.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_final" 4 16 0 "gi_Demo_LM04.bin" "Demo_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_final" 4 16 1 "gi_Demo_LMA14.bin" "Demo_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_final" 4 16 2 "gi_Demo_LMA24.bin" "Demo_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LM0_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LM0_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "0" "Demo_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA1_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "1" "Demo_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA2_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA2_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "2" "Demo_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LM0_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/Demo_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA1_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/Demo_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA2_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/Demo_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Demo_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Demo_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Demo_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_Demo_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_Demo_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_Demo_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_ao" 8 16 2
+Running ftraceRTX sun "C:\Users\jetuser\AppData\Local\Temp\frender" "light_-989905132_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sun "C:\Users\jetuser\AppData\Local\Temp\frender" "light_-989905132_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\jetuser\AppData\Local\Temp\frender" "light_-989905132_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM00.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA10.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA20.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM01.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA11.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA21.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM02.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA12.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA22.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_diffuse" 4 16 0 "gi_Demo_LM03.bin" "Demo_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_diffuse" 4 16 1 "gi_Demo_LMA13.bin" "Demo_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_diffuse" 4 16 2 "gi_Demo_LMA23.bin" "Demo_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_final" 4 16 0 "gi_Demo_LM04.bin" "Demo_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_final" 4 16 1 "gi_Demo_LMA14.bin" "Demo_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_final" 4 16 2 "gi_Demo_LMA24.bin" "Demo_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LM0_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LM0_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "0" "Demo_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA1_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "1" "Demo_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "Demo_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA2_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA2_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "2" "Demo_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LM0_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/Demo_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA1_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/Demo_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/Demo_LMA2_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/Demo_LMA2_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+2022-6-2
+Rendering UV GBuffer for TemplateDemo_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for TemplateDemo_LMA5 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for TemplateDemo_LMA6 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for TemplateDemo_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_TemplateDemo_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_TemplateDemo_LMA4.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_TemplateDemo_LMA5.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jetuser\AppData\Local\Temp\frender" "uvpos_TemplateDemo_LMA6.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6_ao" 8 16 2
+Running ftraceRTX sunprobesh "C:\Users\jetuser\AppData\Local\Temp\frender" "light_2051791217_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "probes" 4 0 4 comp_4.bin
+Running ftraceRTX sun "C:\Users\jetuser\AppData\Local\Temp\frender" "light_2051791217_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sun "C:\Users\jetuser\AppData\Local\Temp\frender" "light_2051791217_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4" 4 0 0 comp_0.bin
+Running ftraceRTX sun "C:\Users\jetuser\AppData\Local\Temp\frender" "light_2051791217_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\jetuser\AppData\Local\Temp\frender" "light_2051791217_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3_diffuse" 4 16 3 "gi_TemplateDemo_LMA30.bin" "TemplateDemo_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4_diffuse" 4 16 0 "gi_TemplateDemo_LMA40.bin" "TemplateDemo_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5_diffuse" 4 16 1 "gi_TemplateDemo_LMA50.bin" "TemplateDemo_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6_diffuse" 4 16 2 "gi_TemplateDemo_LMA60.bin" "TemplateDemo_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3_diffuse" 4 16 3 "gi_TemplateDemo_LMA31.bin" "TemplateDemo_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4_diffuse" 4 16 0 "gi_TemplateDemo_LMA41.bin" "TemplateDemo_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5_diffuse" 4 16 1 "gi_TemplateDemo_LMA51.bin" "TemplateDemo_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6_diffuse" 4 16 2 "gi_TemplateDemo_LMA61.bin" "TemplateDemo_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3_diffuse" 4 16 3 "gi_TemplateDemo_LMA32.bin" "TemplateDemo_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4_diffuse" 4 16 0 "gi_TemplateDemo_LMA42.bin" "TemplateDemo_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5_diffuse" 4 16 1 "gi_TemplateDemo_LMA52.bin" "TemplateDemo_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6_diffuse" 4 16 2 "gi_TemplateDemo_LMA62.bin" "TemplateDemo_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3_diffuse" 4 16 3 "gi_TemplateDemo_LMA33.bin" "TemplateDemo_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4_diffuse" 4 16 0 "gi_TemplateDemo_LMA43.bin" "TemplateDemo_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5_diffuse" 4 16 1 "gi_TemplateDemo_LMA53.bin" "TemplateDemo_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6_diffuse" 4 16 2 "gi_TemplateDemo_LMA63.bin" "TemplateDemo_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\jetuser\AppData\Local\Temp\frender" "probes_final" 1924 16 4 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3_final" 4 16 3 "gi_TemplateDemo_LMA34.bin" "TemplateDemo_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4_final" 4 16 0 "gi_TemplateDemo_LMA44.bin" "TemplateDemo_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5_final" 4 16 1 "gi_TemplateDemo_LMA54.bin" "TemplateDemo_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6_final" 4 16 2 "gi_TemplateDemo_LMA64.bin" "TemplateDemo_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\jetuser\AppData\Local\Temp\frender" "probes_final_" 4 0 4 shcomp_4.bin
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA3_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "3" "TemplateDemo_LMA3_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA4_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA4_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "0" "TemplateDemo_LMA4_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA5_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA5_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA5_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "1" "TemplateDemo_LMA5_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\jetuser\AppData\Local\Temp\frender" "TemplateDemo_LMA6_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA6_final_HDR.lz4" "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA6_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\jetuser\AppData\Local\Temp\frender" "2" "TemplateDemo_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA3_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/TemplateDemo_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA4_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/TemplateDemo_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA5_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/TemplateDemo_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jetuser\AppData\Local\Temp\frender/TemplateDemo_LMA6_final_HDR.lz4" "D:/wowa/Content Creator Template/Assets/BakeryLightmaps/TemplateDemo_LMA6_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Reflection.Assembly:GetTypes <0x00085>
+	  at System.Reflection.Assembly:GetTypes <0x00019>
+	  at UnityEditor.VFX.VFXLibrary:FindConcreteSubclasses <0x00167>
+	  at UnityEditor.VFX.VFXLibrary:LoadSRPBindersIfNeeded <0x000e2>
+	  at UnityEditor.VFX.VFXLibrary:get_currentSRPBinder <0x0002a>
+	  at UnityEditor.VFX.VFXAbstractRenderedOutput:GetOrCreateSubOutput <0x00052>
+	  at UnityEditor.VFX.VFXAbstractRenderedOutput:InitSubOutputs <0x00052>
+	  at UnityEditor.VFX.VFXAbstractRenderedOutput:OnEnable <0x000ca>
+	  at System.Object:runtime_invoke_void__this__ <0x00087>
+=================================================================
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\wowa\Content Creator Template\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
+Done
+Done
+Done
+Done
+2024-4-22
+Rendering UV GBuffer for MainScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA10.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM00.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA40.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA30.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA60.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA20.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA70.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA50.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA11.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM01.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA41.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA31.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA61.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA21.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA71.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA51.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA12.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM02.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA42.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA32.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA62.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA22.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA72.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA52.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA13.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM03.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA43.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA33.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA63.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA23.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA73.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA53.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_final" 4 16 1 "gi_MainScene_LMA14.bin" "MainScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_final" 4 16 0 "gi_MainScene_LM04.bin" "MainScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_final" 4 16 4 "gi_MainScene_LMA44.bin" "MainScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_final" 4 16 3 "gi_MainScene_LMA34.bin" "MainScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_final" 4 16 6 "gi_MainScene_LMA64.bin" "MainScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_final" 4 16 2 "gi_MainScene_LMA24.bin" "MainScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_final" 4 16 7 "gi_MainScene_LMA74.bin" "MainScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_final" 4 16 5 "gi_MainScene_LMA54.bin" "MainScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "1" "MainScene_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "0" "MainScene_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "4" "MainScene_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "3" "MainScene_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "6" "MainScene_LMA6_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "2" "MainScene_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "7" "MainScene_LMA7_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "5" "MainScene_LMA5_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA5_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA10.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA40.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM00.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA30.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA50.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA70.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA20.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA60.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA11.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA41.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM01.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA31.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA51.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA71.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA21.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA61.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA12.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA42.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM02.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA32.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA52.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA72.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA22.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA62.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA13.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA43.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM03.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA33.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA53.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA73.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA23.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA63.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_final" 4 16 1 "gi_MainScene_LMA14.bin" "MainScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_final" 4 16 4 "gi_MainScene_LMA44.bin" "MainScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_final" 4 16 0 "gi_MainScene_LM04.bin" "MainScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_final" 4 16 3 "gi_MainScene_LMA34.bin" "MainScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_final" 4 16 5 "gi_MainScene_LMA54.bin" "MainScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_final" 4 16 7 "gi_MainScene_LMA74.bin" "MainScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_final" 4 16 2 "gi_MainScene_LMA24.bin" "MainScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_final" 4 16 6 "gi_MainScene_LMA64.bin" "MainScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "1" "MainScene_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "4" "MainScene_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "0" "MainScene_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "3" "MainScene_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "5" "MainScene_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "7" "MainScene_LMA7_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "2" "MainScene_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "6" "MainScene_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA6_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA10.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA40.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM00.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA30.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA50.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA70.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA20.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA60.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA11.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA41.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM01.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA31.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA51.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA71.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA21.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA61.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA12.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA42.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM02.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA32.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA52.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA72.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA22.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA62.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA13.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_diffuse" 4 16 4 "gi_MainScene_LMA43.bin" "MainScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM03.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_diffuse" 4 16 3 "gi_MainScene_LMA33.bin" "MainScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_diffuse" 4 16 5 "gi_MainScene_LMA53.bin" "MainScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_diffuse" 4 16 7 "gi_MainScene_LMA73.bin" "MainScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_diffuse" 4 16 2 "gi_MainScene_LMA23.bin" "MainScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_diffuse" 4 16 6 "gi_MainScene_LMA63.bin" "MainScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_final" 4 16 1 "gi_MainScene_LMA14.bin" "MainScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA4_final" 4 16 4 "gi_MainScene_LMA44.bin" "MainScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_final" 4 16 0 "gi_MainScene_LM04.bin" "MainScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA3_final" 4 16 3 "gi_MainScene_LMA34.bin" "MainScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA5_final" 4 16 5 "gi_MainScene_LMA54.bin" "MainScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA7_final" 4 16 7 "gi_MainScene_LMA74.bin" "MainScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA2_final" 4 16 2 "gi_MainScene_LMA24.bin" "MainScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA6_final" 4 16 6 "gi_MainScene_LMA64.bin" "MainScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "1" "MainScene_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "4" "MainScene_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "0" "MainScene_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "3" "MainScene_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "5" "MainScene_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "7" "MainScene_LMA7_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "2" "MainScene_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "6" "MainScene_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA4_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA3_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA5_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA7_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA2_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA6_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA6_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "uvpos_MainScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA10.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM00.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA11.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM01.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA12.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM02.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_diffuse" 4 16 1 "gi_MainScene_LMA13.bin" "MainScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_diffuse" 4 16 0 "gi_MainScene_LM03.bin" "MainScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LMA1_final" 4 16 1 "gi_MainScene_LMA14.bin" "MainScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "MainScene_LM0_final" 4 16 0 "gi_MainScene_LM04.bin" "MainScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "1" "MainScene_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\DAVIDM~1\AppData\Local\Temp\frender" "0" "MainScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LMA1_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\DAVIDM~1\AppData\Local\Temp\frender/MainScene_LM0_final_HDR.lz4" "G:/VillageStudio/Well/Assets/BakeryLightmaps/MainScene_LM0_final.hdr" 1024

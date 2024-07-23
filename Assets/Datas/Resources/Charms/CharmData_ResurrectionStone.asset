@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1f2e4e799f420880eb1af8511fb09c, type: 3}
+  m_Name: CharmData_ResurrectionStone
+  m_EditorClassIdentifier: 
+  InternalID: 2e2070cf4cdc6452f841c94437aaac32
+  charmName: Resurrection Stone
+  charmIcon: {fileID: 21300000, guid: 829a2b90512d543eba8d953fd7b96b47, type: 3}
+  description: When your life reaches 0, revive with 20 life then Resurrection Stone
+    is destroyed.
+  score: 20
+  health: 20

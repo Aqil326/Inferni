@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d8ad169ca942d081a5bf914e67ebeb, type: 3}
+  m_Name: EnvironmentSettings
+  m_EditorClassIdentifier: 
+  onlineGameConfigs:
+  - StackName: Dev
+    Stack: 0
+    APIServerHost: https://inferni-api-dev-2bc6aa80a474.herokuapp.com
+    MatchmakerServerHosts:
+    - MatchmakingType: 0
+      QueueName: Dev-Private-Steam-Lobby
+    - MatchmakingType: 1
+      QueueName: Dev-1
+    IsActive: 0
+  - StackName: Staging
+    Stack: 1
+    APIServerHost: https://inferni-api-staging-d54f436064f8.herokuapp.com
+    MatchmakerServerHosts:
+    - MatchmakingType: 0
+      QueueName: Staging-Private-Steam-Lobby
+    - MatchmakingType: 1
+      QueueName: Staging-1
+    IsActive: 1
+  - StackName: Steam
+    Stack: 2
+    APIServerHost: https://inferni-api-steam-demo-8206485c4439.herokuapp.com
+    MatchmakerServerHosts:
+    - MatchmakingType: 1
+      QueueName: Steam-DEMO
+    - MatchmakingType: 0
+      QueueName: Steam-DEMO-Private-Lobby
+    IsActive: 0
+  LocalGameConfig:
+    APIServerHost: https://inferni-api-dev-2bc6aa80a474.herokuapp.com
+    IP: 127.0.0.1
+    Port: 9000

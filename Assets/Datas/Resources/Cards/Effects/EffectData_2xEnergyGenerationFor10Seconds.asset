@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c3a7756b60147e4a71c0be5a4d1767, type: 3}
+  m_Name: EffectData_2xEnergyGenerationFor10Seconds
+  m_EditorClassIdentifier: 
+  InternalID: 3f0ea53e3193747f1abe5eb499e3add9
+  target: 1
+  duration: 10
+  useProjectileLifetimeMultiplier: 0
+  modifierData: {fileID: 11400000, guid: 949e98bb8207042618495b1170ae8a9b, type: 2}
+  rateMultiplier: 0.5

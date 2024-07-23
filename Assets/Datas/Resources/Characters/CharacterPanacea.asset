@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ee86bca70bb44d7815e1a72632be1e, type: 3}
+  m_Name: CharacterPanacea
+  m_EditorClassIdentifier: 
+  InternalID: d5a27d81ed60f4ce297aa29d641619d9
+  Name: Panacea
+  Description: The ultimate team player, able to heal and protect herself and her
+    teammates. But is lacking damage capacity.
+  Sprite: {fileID: 21300000, guid: 0ebdb735004264e0695cb2fca20b7e45, type: 3}
+  CharacterModel: {fileID: 8296271527266945714, guid: 7ad8dd7d8145c44b29a34f21ab16ac96, type: 3}
+  MaxHealth: 90
+  MaxDeathTimer: 45
+  CardDrawTimer: 15
+  StartingCards:
+  - {fileID: 11400000, guid: 30cf25a3aa5cc4b40a4ac24044917f94, type: 2}
+  - {fileID: 11400000, guid: 30cf25a3aa5cc4b40a4ac24044917f94, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: bc1654b9cb78e472799e531df5ae6df4, type: 2}
+  - {fileID: 11400000, guid: bc1654b9cb78e472799e531df5ae6df4, type: 2}
+  - {fileID: 11400000, guid: bc1654b9cb78e472799e531df5ae6df4, type: 2}
+  - {fileID: 11400000, guid: d6dc34bf87e6f41b3bc3fa444f1e0f66, type: 2}
+  - {fileID: 11400000, guid: d6dc34bf87e6f41b3bc3fa444f1e0f66, type: 2}
+  - {fileID: 11400000, guid: e765f50a901aa44d693e4405e1c35ec9, type: 2}
+  - {fileID: 11400000, guid: d32dce90b6acd40eda98c804a7a7a936, type: 2}
+  - {fileID: 11400000, guid: d32dce90b6acd40eda98c804a7a7a936, type: 2}
+  StartingCharms:
+  - Index: 0
+    CharmData: {fileID: 11400000, guid: 0812d8aad192d46568a2d24e97c6fb9a, type: 2}
+  - Index: 1
+    CharmData: {fileID: 11400000, guid: ce3ffb6c14cd34d9eb2b6a7362998b08, type: 2}

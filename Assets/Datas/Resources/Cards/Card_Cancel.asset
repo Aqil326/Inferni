@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2328c5569eb43feade0687bb6d6225, type: 3}
+  m_Name: Card_Cancel
+  m_EditorClassIdentifier: 
+  InternalID: 2ecc1b66bc13e4d33a22696606a36703
+  Name: Cancel
+  MaxAllowableHPForCast: 0
+  IsBlocked: 0
+  EnergyCost: []
+  CardColor: 5
+  CardType: 0
+  CardSubtypes: 01000000
+  CastingTime: 0
+  ProjectileSpeedMultiplier: 3
+  EnergyCastMultiplier: 1
+  Target: 7
+  CardSprite: {fileID: 21300000, guid: 8089be4c0e8d9594792683e7e724da9b, type: 3}
+  CardText: 
+  EndCastSound:
+    audioClips:
+    - {fileID: 8300000, guid: 1aac7c6974de642e89d3ec461892e3a1, type: 3}
+    - {fileID: 8300000, guid: 5e0be5ceb90da4dc697045f8e7a1f6e8, type: 3}
+    - {fileID: 8300000, guid: c20c42a0d30ef4ac4bcb2857099d52f4, type: 3}
+    volume: 1
+  ProjectileHitSound:
+    audioClips:
+    - {fileID: 8300000, guid: 367224d69b08d4148abd3e966bc50510, type: 3}
+    - {fileID: 8300000, guid: 66320d2eed48f45d699e76c3debe32eb, type: 3}
+    - {fileID: 8300000, guid: 982e362c114cb45fba3ab8cda0cbb1de, type: 3}
+    volume: 1
+  ProjectileTravelSound:
+    audioClips:
+    - {fileID: 8300000, guid: 589f301994d4941e6a870ef8f98a6c1b, type: 3}
+    volume: 0.5
+  ProjectileType: 2
+  InstantEffectDatas: []
+  OnCastEffectDatas: []
+  ProjectileEffectDatas:
+  - {fileID: 11400000, guid: f67d8565d23294f859e4b8ea98837dd7, type: 2}
+  EnergyPoolSacrificeEffectDatas: []
+  BaseScore: 0
+  CardCategories: 00010000

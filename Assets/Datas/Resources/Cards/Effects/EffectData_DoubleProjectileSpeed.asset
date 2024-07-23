@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a4e6a21a0c844c18bb40750d1e927e, type: 3}
+  m_Name: EffectData_DoubleProjectileSpeed
+  m_EditorClassIdentifier: 
+  InternalID: 60e35b65473f04330a0bdd2461db4321
+  target: 1
+  CardEffectCategories: 00020000
+  effectDescription: The travel speed of target spell is {X}x
+  speedMultiplier: 2

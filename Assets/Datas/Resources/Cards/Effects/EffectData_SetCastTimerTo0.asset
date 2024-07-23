@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c5c81d0a07c4aa3b35e5e8d4120f65, type: 3}
+  m_Name: EffectData_SetCastTimerTo0
+  m_EditorClassIdentifier: 
+  InternalID: a5382412ab45f49faa788f4f27ef4d55
+  target: 1
+  CardEffectCategories: 00020000
+  effectDescription: Instantly complete targeted casting spell
+  castTimerAddition: 0
+  castTimerMultiplier: 0

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ee86bca70bb44d7815e1a72632be1e, type: 3}
+  m_Name: CharacterHunter
+  m_EditorClassIdentifier: 
+  InternalID: 20a00068e24af4c658c094a6803621d9
+  Name: The Hunter
+  Description: The Hunter is out to deal lots of damage very quickly, making him
+    a real menace, but lacking healing and defensive spells.
+  Sprite: {fileID: 21300000, guid: 047b76cfda93a4bf8a4821467d2fb5b3, type: 3}
+  CharacterModel: {fileID: 4245620821315492249, guid: 3935a986392f1435f9c72da2ed8792e0, type: 3}
+  MaxHealth: 90
+  MaxDeathTimer: 45
+  CardDrawTimer: 15
+  StartingCards:
+  - {fileID: 11400000, guid: 30cf25a3aa5cc4b40a4ac24044917f94, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: d6e3a0a061364465dbdd4c8293ee9d99, type: 2}
+  - {fileID: 11400000, guid: d6e3a0a061364465dbdd4c8293ee9d99, type: 2}
+  - {fileID: 11400000, guid: 80117786da53a47229d9594737bb500e, type: 2}
+  - {fileID: 11400000, guid: 80117786da53a47229d9594737bb500e, type: 2}
+  - {fileID: 11400000, guid: 19a1be00498fc4066abbdf3efc81785c, type: 2}
+  - {fileID: 11400000, guid: 82325a7f0a9ad40ad971475f189a9851, type: 2}
+  - {fileID: 11400000, guid: a216c4447770c4fae8b2648bacf27138, type: 2}
+  StartingCharms:
+  - Index: 0
+    CharmData: {fileID: 11400000, guid: 7a6bfb6fc1f1649ff8a61a5d18962b33, type: 2}
+  - Index: 1
+    CharmData: {fileID: 11400000, guid: 0c39bbf7433f04de9991773c1471271b, type: 2}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2328c5569eb43feade0687bb6d6225, type: 3}
+  m_Name: Card_ClearOut
+  m_EditorClassIdentifier: 
+  InternalID: a404383669e655b4885eacf5830f0b4a
+  Name: Clear Out
+  MaxAllowableHPForCast: 0
+  IsBlocked: 0
+  EnergyCost: []
+  CardColor: 4
+  CardType: 0
+  CardSubtypes: 00000000
+  CastingTime: 5
+  ProjectileSpeedMultiplier: 1
+  EnergyCastMultiplier: 1
+  Target: 12
+  CardSprite: {fileID: 21300000, guid: dcb33edd8a9c2ea488c8bf8e6f5fb91c, type: 3}
+  CardText: 
+  EndCastSound:
+    audioClips:
+    - {fileID: 8300000, guid: 317558df121a0404f9914f6f2df946d3, type: 3}
+    - {fileID: 8300000, guid: da467c8cdde1b423e80f7535ed223b06, type: 3}
+    - {fileID: 8300000, guid: ebcad38efd7ce4104bfbdf95b472a163, type: 3}
+    volume: 1
+  ProjectileHitSound:
+    audioClips:
+    - {fileID: 8300000, guid: 21bd044d2304744a8993b76f82b7d54a, type: 3}
+    - {fileID: 8300000, guid: 512d4d7f5fab54f6d8e735b92eabcaf1, type: 3}
+    - {fileID: 8300000, guid: 74124743e7e9243dea5e44760fbdabcd, type: 3}
+    volume: 1
+  ProjectileTravelSound:
+    audioClips:
+    - {fileID: 8300000, guid: b718b3f9a79d74e9493e52901536c3dd, type: 3}
+    volume: 0.5
+  ProjectileType: 2
+  InstantEffectDatas: []
+  OnCastEffectDatas:
+  - {fileID: 11400000, guid: d5ea21556f83446f4b8d2a6567a0ac7f, type: 2}
+  ProjectileEffectDatas: []
+  EnergyPoolSacrificeEffectDatas: []
+  BaseScore: 0
+  CardCategories: 0800000010000000

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ee86bca70bb44d7815e1a72632be1e, type: 3}
+  m_Name: CharacterTricksterDemon
+  m_EditorClassIdentifier: 
+  InternalID: 8d50c0919beba47518cadd913c83a300
+  Name: Trickster Demon
+  Description: Lots of discard and reshuffle effects means the Trickster Demon derails
+    opponents while gaining card advantage. Great in one-on-one scenarios but weak
+    in general melee.
+  Sprite: {fileID: 21300000, guid: f3e8386d3a1f5417e837846abe51d76f, type: 3}
+  CharacterModel: {fileID: 1174791875169100402, guid: 2499285fc8a8d4f1bbc2615fbfe066c4, type: 3}
+  MaxHealth: 90
+  MaxDeathTimer: 45
+  CardDrawTimer: 15
+  StartingCards:
+  - {fileID: 11400000, guid: 30cf25a3aa5cc4b40a4ac24044917f94, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 4e237539f96414eb79722aeea9b0aa0d, type: 2}
+  - {fileID: 11400000, guid: 4e237539f96414eb79722aeea9b0aa0d, type: 2}
+  - {fileID: 11400000, guid: caef1416271a04385a13daa16d8ed5b7, type: 2}
+  - {fileID: 11400000, guid: caef1416271a04385a13daa16d8ed5b7, type: 2}
+  - {fileID: 11400000, guid: 25e1798af0ac843d69f50d4da9561b0e, type: 2}
+  - {fileID: 11400000, guid: 40e74835935f64ca28979163da306d4e, type: 2}
+  - {fileID: 11400000, guid: 5ea5aff7a58d54c50b1aed453e14e581, type: 2}
+  - {fileID: 11400000, guid: 5ea5aff7a58d54c50b1aed453e14e581, type: 2}
+  - {fileID: 11400000, guid: 6b692947bc46843f085082d589d7e2f2, type: 2}
+  - {fileID: 11400000, guid: 58350befc84f047c6847277785bbc186, type: 2}
+  - {fileID: 11400000, guid: 2a5e0f6aa94a04e0caa6b0e879db76a8, type: 2}
+  StartingCharms:
+  - Index: 0
+    CharmData: {fileID: 11400000, guid: f87d33f317b0a4c9ba076abccc05f0c1, type: 2}
+  - Index: 1
+    CharmData: {fileID: 11400000, guid: c9434b47d51ce429397112571f2c79ad, type: 2}

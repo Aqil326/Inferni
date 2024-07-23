@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258f8edc164a42ac8c8271182fb736d8, type: 3}
+  m_Name: CharmData_DarkLocket
+  m_EditorClassIdentifier: 
+  InternalID: 0c39bbf7433f04de9991773c1471271b
+  charmName: Dark Locket
+  charmIcon: {fileID: 21300000, guid: 0e79f31e6f63b435ea59fcf6adf97dc7, type: 3}
+  description: Whenever a player is KO'ed draw a card.
+  score: 2

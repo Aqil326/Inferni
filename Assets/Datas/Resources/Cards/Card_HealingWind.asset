@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2328c5569eb43feade0687bb6d6225, type: 3}
+  m_Name: Card_HealingWind
+  m_EditorClassIdentifier: 
+  InternalID: d6dc34bf87e6f41b3bc3fa444f1e0f66
+  Name: Healing Wind
+  MaxAllowableHPForCast: 0
+  IsBlocked: 0
+  EnergyCost: []
+  CardColor: 5
+  CardType: 0
+  CardSubtypes: 01000000
+  CastingTime: 7
+  ProjectileSpeedMultiplier: 1
+  EnergyCastMultiplier: 1
+  Target: 4
+  CardSprite: {fileID: 21300000, guid: 10927bd0649f77e45b906ad3034b180e, type: 3}
+  CardText: 
+  EndCastSound:
+    audioClips:
+    - {fileID: 8300000, guid: 1aac7c6974de642e89d3ec461892e3a1, type: 3}
+    - {fileID: 8300000, guid: 5e0be5ceb90da4dc697045f8e7a1f6e8, type: 3}
+    - {fileID: 8300000, guid: c20c42a0d30ef4ac4bcb2857099d52f4, type: 3}
+    volume: 1
+  ProjectileHitSound:
+    audioClips:
+    - {fileID: 8300000, guid: 8a326ab1fe80c4e869cbac823a777bf5, type: 3}
+    volume: 1
+  ProjectileTravelSound:
+    audioClips:
+    - {fileID: 8300000, guid: 589f301994d4941e6a870ef8f98a6c1b, type: 3}
+    volume: 0.5
+  ProjectileType: 1
+  InstantEffectDatas: []
+  OnCastEffectDatas: []
+  ProjectileEffectDatas:
+  - {fileID: 11400000, guid: b9ae17cbf23914d5da8de36406e3523a, type: 2}
+  EnergyPoolSacrificeEffectDatas: []
+  BaseScore: 0
+  CardCategories: 02000000

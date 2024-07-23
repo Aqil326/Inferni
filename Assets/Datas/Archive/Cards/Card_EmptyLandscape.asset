@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2328c5569eb43feade0687bb6d6225, type: 3}
+  m_Name: Card_EmptyLandscape
+  m_EditorClassIdentifier: 
+  InternalID: eb10ca68b719e476887f38eafadcabca
+  Name: Empty Landscape
+  MaxAllowableHPForCast: 0
+  IsBlocked: 0
+  EnergyCost: []
+  CardColor: 4
+  CardType: 1
+  CardSubtypes: 
+  CastingTime: 5
+  ProjectileSpeedMultiplier: 0
+  EnergyCastMultiplier: 0
+  Target: 9
+  CardSprite: {fileID: 21300000, guid: 2b496d8555babbf4f9c5685c3a0a7af4, type: 3}
+  CardText: Mana pool upgrades instantly.
+  EndCastSound:
+    audioClips:
+    - {fileID: 8300000, guid: 1aac7c6974de642e89d3ec461892e3a1, type: 3}
+    - {fileID: 8300000, guid: 5e0be5ceb90da4dc697045f8e7a1f6e8, type: 3}
+    - {fileID: 8300000, guid: c20c42a0d30ef4ac4bcb2857099d52f4, type: 3}
+    volume: 1
+  ProjectileHitSound:
+    audioClips:
+    - {fileID: 8300000, guid: 367224d69b08d4148abd3e966bc50510, type: 3}
+    - {fileID: 8300000, guid: 66320d2eed48f45d699e76c3debe32eb, type: 3}
+    - {fileID: 8300000, guid: 982e362c114cb45fba3ab8cda0cbb1de, type: 3}
+    volume: 1
+  ProjectileTravelSound:
+    audioClips:
+    - {fileID: 8300000, guid: 589f301994d4941e6a870ef8f98a6c1b, type: 3}
+    volume: 0.5
+  InstantEffectDatas: []
+  OnCastEffectDatas: []
+  ProjectileEffectDatas: []
+  EnergyPoolSacrificeEffectDatas:
+  - {fileID: 11400000, guid: 5a7a1dfbd64aa4201a56ec409092b2a9, type: 2}

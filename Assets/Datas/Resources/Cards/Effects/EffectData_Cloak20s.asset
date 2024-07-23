@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26326de687a9429faacf1b205a61f713, type: 3}
+  m_Name: EffectData_Cloak20s
+  m_EditorClassIdentifier: 
+  InternalID: 9510262921904416aa3c76a5d74d575b
+  target: 1
+  CardEffectCategories: 20000000
+  effectDescription: Apply {X} to target player for {Y} seconds
+  duration: 20
+  useProjectileLifetimeMultiplier: 0
+  modifierData: {fileID: 11400000, guid: bdb422265125a4d638d5f76e53bb9d9b, type: 2}
+  cloakedMaterial: {fileID: 2100000, guid: 5bdb4f0b7a1ee49c0aa8c3974e134760, type: 2}

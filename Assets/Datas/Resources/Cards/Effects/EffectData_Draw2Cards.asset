@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce2437d47599424c87980f60efbac84, type: 3}
+  m_Name: EffectData_Draw2Cards
+  m_EditorClassIdentifier: 
+  InternalID: b91a02dafb9f94d1da93f893fc81d8b1
+  target: 1
+  CardEffectCategories: 08000000
+  effectDescription: Target player draws {X} cards
+  cardsAmount: 2

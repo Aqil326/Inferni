@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2328c5569eb43feade0687bb6d6225, type: 3}
+  m_Name: Card_CuttheNose
+  m_EditorClassIdentifier: 
+  InternalID: 0437afd3888fcf74981328dae4dd4d13
+  Name: Cut the Nose
+  MaxAllowableHPForCast: 0
+  IsBlocked: 0
+  EnergyCost: []
+  CardColor: 4
+  CardType: 0
+  CardSubtypes: 00000000
+  CastingTime: 3
+  ProjectileSpeedMultiplier: 1
+  EnergyCastMultiplier: 1
+  Target: 4
+  CardSprite: {fileID: 21300000, guid: 57d0a31a530151c449dec85f83689f66, type: 3}
+  CardText: 
+  EndCastSound:
+    audioClips:
+    - {fileID: 8300000, guid: 317558df121a0404f9914f6f2df946d3, type: 3}
+    - {fileID: 8300000, guid: da467c8cdde1b423e80f7535ed223b06, type: 3}
+    - {fileID: 8300000, guid: ebcad38efd7ce4104bfbdf95b472a163, type: 3}
+    volume: 1
+  ProjectileHitSound:
+    audioClips:
+    - {fileID: 8300000, guid: 21bd044d2304744a8993b76f82b7d54a, type: 3}
+    - {fileID: 8300000, guid: 512d4d7f5fab54f6d8e735b92eabcaf1, type: 3}
+    - {fileID: 8300000, guid: 74124743e7e9243dea5e44760fbdabcd, type: 3}
+    volume: 1
+  ProjectileTravelSound:
+    audioClips:
+    - {fileID: 8300000, guid: b718b3f9a79d74e9493e52901536c3dd, type: 3}
+    volume: 0.5
+  ProjectileType: 0
+  InstantEffectDatas: []
+  OnCastEffectDatas:
+  - {fileID: 11400000, guid: d1c5423335265ff46bf8b2e5b7e79481, type: 2}
+  ProjectileEffectDatas:
+  - {fileID: 11400000, guid: 7dadf3b4693d54f818e7ca7a26ce2f00, type: 2}
+  EnergyPoolSacrificeEffectDatas: []
+  BaseScore: 0
+  CardCategories: 0100000000080000

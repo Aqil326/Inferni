@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16e164c55c2d4eae8feb58749ab2237a, type: 3}
+  m_Name: EffectData_Freeze15s
+  m_EditorClassIdentifier: 
+  InternalID: b8b4dc51ff556475081855d4da97a3f8
+  target: 1
+  CardEffectCategories: 40000000
+  effectDescription: Freeze target player for 15s
+  duration: 15
+  useProjectileLifetimeMultiplier: 0
+  modifierData: {fileID: 11400000, guid: 298ccedf80eba414492e6415a8d2a3a0, type: 2}

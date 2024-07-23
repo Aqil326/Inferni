@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819f04cc540334b96ac5cac1247730e5, type: 3}
+  m_Name: BotProfile_Support
+  m_EditorClassIdentifier: 
+  cardCategoryScores:
+  - cardCategory: 1
+    score: 10
+  - cardCategory: 2
+    score: 10
+  - cardCategory: 4
+    score: 5
+  - cardCategory: 8
+    score: 12
+  - cardCategory: 16
+    score: 8
+  - cardCategory: 32
+    score: 12
+  - cardCategory: 64
+    score: 6
+  - cardCategory: 256
+    score: 15
+  - cardCategory: 512
+    score: 12
+  - cardCategory: 1024
+    score: 8
+  - cardCategory: 2048
+    score: -5
+  - cardCategory: 8192
+    score: 6
+  selfishnessBonus: -10
+  agressivenessBonus: 10

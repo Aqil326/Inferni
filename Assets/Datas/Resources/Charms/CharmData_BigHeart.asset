@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8aaff4d98e745dca39ddad33a5da38b, type: 3}
+  m_Name: CharmData_BigHeart
+  m_EditorClassIdentifier: 
+  InternalID: c0c77d1a3bc994bb8b0fa304aa95fcb8
+  charmName: Big Heart
+  charmIcon: {fileID: 21300000, guid: f1d0251403721434498390b41154ebdd, type: 3}
+  description: Max life is increased by +15.
+  score: 10
+  LifeAmount: 15

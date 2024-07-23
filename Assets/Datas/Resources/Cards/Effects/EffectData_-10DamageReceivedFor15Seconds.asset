@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8087bc2095a0e42d0a73f9dfd1a4e474, type: 3}
+  m_Name: EffectData_-10DamageReceivedFor15Seconds
+  m_EditorClassIdentifier: 
+  InternalID: 14d31e01839414feab39b0cefc3fd7f3
+  target: 2
+  CardEffectCategories: 2000000000010000
+  effectDescription: Apply {X} to self for {Y}s
+  duration: 15
+  useProjectileLifetimeMultiplier: 0
+  modifierData: {fileID: 11400000, guid: 6a322234989b6481f957f99bd8c29ae8, type: 2}
+  damageMultiplier: 1
+  damageReduction: 10

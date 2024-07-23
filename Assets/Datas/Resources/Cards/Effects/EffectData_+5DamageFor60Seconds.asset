@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fdada368c8fb42dd927aeffbc62d7c1, type: 3}
+  m_Name: EffectData_+5DamageFor60Seconds
+  m_EditorClassIdentifier: 
+  InternalID: 62211ab7331eb459eaa9677719bf63e2
+  target: 1
+  CardEffectCategories: 20000000
+  effectDescription: 
+  duration: 60
+  useProjectileLifetimeMultiplier: 0
+  modifierData: {fileID: 11400000, guid: 666ffdf078cac43d3baad6cbfed0a82c, type: 2}
+  damageMultiplier: 1
+  damageAddition: 5

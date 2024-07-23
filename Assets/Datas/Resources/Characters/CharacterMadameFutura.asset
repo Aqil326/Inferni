@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ee86bca70bb44d7815e1a72632be1e, type: 3}
+  m_Name: CharacterMadameFutura
+  m_EditorClassIdentifier: 
+  InternalID: a9e7d06f1e3964f129d42c3f154e14c5
+  Name: Madame Futura
+  Description: This side show fortune teller can manipulate spells and players, taking
+    control of matches. However, she has few ways to deal damage.
+  Sprite: {fileID: 21300000, guid: 3d434ad413acd4b74881987b39262ca4, type: 3}
+  CharacterModel: {fileID: 141413772773981998, guid: f3867a329dc354136a5e81dc8e51a686, type: 3}
+  MaxHealth: 90
+  MaxDeathTimer: 45
+  CardDrawTimer: 15
+  StartingCards:
+  - {fileID: 11400000, guid: 30cf25a3aa5cc4b40a4ac24044917f94, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: d4bce53a5e57249898f8119d3ea36ddd, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 22605718ce4b143f7aa34391adea6223, type: 2}
+  - {fileID: 11400000, guid: 2ecc1b66bc13e4d33a22696606a36703, type: 2}
+  - {fileID: 11400000, guid: 2ecc1b66bc13e4d33a22696606a36703, type: 2}
+  - {fileID: 11400000, guid: 2ecc1b66bc13e4d33a22696606a36703, type: 2}
+  - {fileID: 11400000, guid: 4e237539f96414eb79722aeea9b0aa0d, type: 2}
+  - {fileID: 11400000, guid: 4e237539f96414eb79722aeea9b0aa0d, type: 2}
+  - {fileID: 11400000, guid: 06baf0e60d3cf4f8ebbbb7173ec71e71, type: 2}
+  - {fileID: 11400000, guid: 37c9a30bb0b59494f95a6fc56e73d8e5, type: 2}
+  - {fileID: 11400000, guid: 37c9a30bb0b59494f95a6fc56e73d8e5, type: 2}
+  - {fileID: 11400000, guid: 2a5e0f6aa94a04e0caa6b0e879db76a8, type: 2}
+  StartingCharms:
+  - Index: 0
+    CharmData: {fileID: 11400000, guid: c263b07999aee4a19a9807e72f6e2387, type: 2}
+  - Index: 2
+    CharmData: {fileID: 11400000, guid: ceddfc74c87f74278819b2f5e7a041b8, type: 2}

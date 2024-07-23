@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c175947d8ec453b82316ba773875bcf, type: 3}
+  m_Name: EffectData_Add5DamageToTargetPlayerFor30s
+  m_EditorClassIdentifier: 
+  InternalID: 284b4e7f2abe84fca8119b5f4dabec13
+  target: 1
+  CardEffectCategories: 20000000
+  effectDescription: 
+  duration: 30
+  useProjectileLifetimeMultiplier: 0
+  modifierData: {fileID: 11400000, guid: 7dbb5bb200ae8464abc4b13a2f475f74, type: 2}
+  damage: 5
+  cardDescription: 'On impact: Deal 5 damage to target player.'
